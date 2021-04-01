@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Desain Pemula</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <a href="" class="logo">LO<span>GO</span></a>
+      <ul>
+        <li><a href="" class="active" onclick="toggle()">Home</a></li>
+        <li><a href="#blog" onclick="toggle()">Blog</a></li>
+        <li><a href="#about" onclick="toggle()">About</a></li>
+        <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+        <li><a href="#contact" onclick="toggle()">Contact</a></li>
+      </ul>
+      <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+      <div>
+        <h2>Desain Web Pemula</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          odit? Atque repellat quod neque iste eos commodi nisi autem ad debitis
+          earum officia ipsum voluptatibus, voluptatem expedita omnis,
+          voluptates beatae sint? Aspernatur quia tempore maiores, eos voluptas
+          ut vel hic ratione neque labore. Minus tempora tenetur, animi
+          molestiae autem incidunt voluptatibus, velit perspiciatis repellat
+          tempore fuga esse quaerat quis provident.
+        </p>
+        <a href="">Read More</a>
+      </div>
+      <img src="images/img.png" alt="" />
+    </section>
+    <section id="blog">
+      <div>
+        <h2>Blog</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          officia dolor, mollitia provident animi earum doloribus deleniti
+          incidunt numquam fugit laudantium dolorem maxime labore necessitatibus
+          sunt, quia fugiat quaerat voluptatum laborum! Esse laudantium libero
+          harum tenetur, voluptatum necessitatibus ut. Velit culpa, impedit,
+          sapiente inventore deserunt commodi nesciunt officiis aliquid
+          molestiae ducimus, quasi voluptatem explicabo amet ut sit voluptatibus
+          porro quo?
+        </p>
+        <a href="">Read More</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div>
+        <h2>About</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          officia dolor, mollitia provident animi earum doloribus deleniti
+          incidunt numquam fugit laudantium dolorem maxime labore necessitatibus
+          sunt, quia fugiat quaerat voluptatum laborum! Esse laudantium libero
+          harum tenetur, voluptatum necessitatibus ut. Velit culpa, impedit,
+          sapiente inventore deserunt commodi nesciunt officiis aliquid
+          molestiae ducimus, quasi voluptatem explicabo amet ut sit voluptatibus
+          porro quo?
+        </p>
+        <a href="">Read More</a>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div>
+        <h2>Portfolio</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          officia dolor, mollitia provident animi earum doloribus deleniti
+          incidunt numquam fugit laudantium dolorem maxime labore necessitatibus
+          sunt, quia fugiat quaerat voluptatum laborum! Esse laudantium libero
+          harum tenetur, voluptatum necessitatibus ut. Velit culpa, impedit,
+          sapiente inventore deserunt commodi nesciunt officiis aliquid
+          molestiae ducimus, quasi voluptatem explicabo amet ut sit voluptatibus
+          porro quo?
+        </p>
+        <a href="">Read More</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <h2>Kontak</h2>
+        <p>Do you have question? Send us at Email or Subbscribe</p>
+        <form action="">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Your Email" />
+          </div>
+          <div class="form-group">
+            <label for="email">Nama Lengkap</label>
+            <input type="text" placeholder="Your Full Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <textarea name="" id="pesan" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+        <a href="">Send Email</a>
+      </div>
+    </section>
+
+    <div id="footer">
+      <p>&copy; 2021 | Okty Aji Pangestu</p>
+    </div>
+
+    <script>
+      function toggle() {
+        const header = document.getElementById("header");
+        header.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
